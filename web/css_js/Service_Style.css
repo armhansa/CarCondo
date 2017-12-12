@@ -1,0 +1,109 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.img-size{
+    width: 40px;
+    height: 20px;
+}
+    
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+/* dropdown */
+.btn-primaryc{
+  color: #9d9d9d;
+  background-color: #222;
+  height: 50px;
+
+}
+
+.midcol{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-caption {
+    display: none; 
+}
+
+.container{
+  color: white;
+}
+
+#div1, #div2 {
+    float: left;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*star*/
+body {
+  background: white;
+font-family: "Segoe WP","Segoe UI", Helvetica, Arial, sans-serif;
+text-align:center;
+color: black;
+}
+
+.btn.focus, .btn:focus{
+  color: #9d9d9d;
+} 
+
+.btn:hover, .btn[aria-expanded="true"]{
+  color: #fff;
+}
+
+.panel {
+    border: 1px solid #eeeeee; 
+    border-radius:0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid black;
+    background-color: #fff !important;
+    color: black;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: black !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+.panel-footer h3 {
+    font-size: 32px;
+}
+
+.panel-footer h4 {
+    color: #999;
+    font-size: 14px;
+}
+
+.panel-footer .btn {
+    margin: 15px 0;
+    background-color: black;
+    color: #fff;
+}
+.panel-body{
+    color: black;
+}

@@ -1,0 +1,139 @@
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/*@import url(https://fonts.google.com/specimen/Montserrat);*/
+.btn{
+
+  background-color: #26C6DA;
+  border: none;
+  padding: 10px;
+  width: 200px;
+  border-radius:3px;
+  box-shadow: 1px 5px 20px -5px rgba(0,0,0,0.4);
+  color: #fff;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+/* dropdown */
+.btn-primaryc{
+  color: #9d9d9d;
+  background-color: #222;
+  height: 40px;
+
+}
+
+.btn.focus, .btn:focus{
+  color: #9d9d9d;
+} 
+
+.btn:hover, .btn[aria-expanded="true"]{
+  color: #fff;
+}
+.midcol{
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-caption {
+    display: none; 
+
+}
+
+.container{
+  color: white;
+}
+
+html { width: 100%; height:100%; overflow:hidden; }
+
+body { 
+  width: 100%;
+  height:100%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, #4b4b4b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, #4b4b4b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, #4b4b4b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, #4b4b4b); /* Standard syntax */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
+}
+.login { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  width:300px;
+  height:300px;
+}
+.login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
+
+input { 
+  width: 100%; 
+  margin-bottom: 10px; 
+  background: rgba(0,0,0,0.1);
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 4px;
+  box-shadow: inset 0 -5px 45px rgba(100,100,100,0.3), 0 1px 1px rgba(255,255,255,0.2);
+  -webkit-transition: box-shadow .5s ease;
+  -moz-transition: box-shadow .5s ease;
+  -o-transition: box-shadow .5s ease;
+  -ms-transition: box-shadow .5s ease;
+  transition: box-shadow .5s ease;
+}
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+input[type="file"] {
+  display: inline;
+}
+
+.container{
+  width: 600;
+  margin: 0 center;
+}
+
+.size-box {
+   width: 300px;
+   
+ }
+.right{
+  position: relative;
+    right: 15px;
+}
+select{
+  width: 290px;
+  margin-bottom: 10px; 
+  background: rgba(0,0,0,0.1);
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 4px;
+  box-shadow: inset 0 -5px 45px rgba(100,100,100,0.3), 0 1px 1px rgba(255,255,255,0.2);
+  -webkit-transition: box-shadow .5s ease;
+  -moz-transition: box-shadow .5s ease;
+  -o-transition: box-shadow .5s ease;
+  -ms-transition: box-shadow .5s ease;
+  transition: box-shadow .5s ease;
+}
+option{
+  color: black;
+}
+.pic{
+  width: 300px;
+  position: relative;
+}

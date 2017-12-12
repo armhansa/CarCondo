@@ -1,0 +1,75 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.img-size{
+    width: 40px;
+    height: 20px;
+}
+    
+.btn-primaryc{
+	color: #9d9d9d;
+	background-color: #222;
+	height: 50px;
+
+}
+
+.midcol{
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.carousel-caption {
+    display: none; 
+}
+
+.container{
+	color: white;
+}
+
+#div1, #div2 {
+    float: left;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/*star*/
+body {
+	background: black;
+        font-family: "Segoe WP","Segoe UI", Helvetica, Arial, sans-serif;
+        text-align:center;
+        color: white;
+}
+
+.washing{
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url("../img/1.png");
+}
+.carcare{
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url("../img/2.png");
+}
+.transport{
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+	text-align: center;
+	background-image: url("../img/3.png");
+}
+.btn.focus, .btn:focus{
+	color: #9d9d9d;
+} 
+
+.btn:hover, .btn[aria-expanded="true"]{
+	color: #fff;
+}
